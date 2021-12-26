@@ -1,3 +1,4 @@
+import exp from 'constants';
 import { Request, Response } from 'express';
 import { container } from 'tsyringe';
 
@@ -28,3 +29,5 @@ export class CreateStatementController {
     return response.status(201).json(statement);
   }
 }
+
+export {OperationType}
